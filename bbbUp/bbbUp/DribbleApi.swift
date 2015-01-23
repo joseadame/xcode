@@ -17,7 +17,7 @@ class DribbleApi {
         let session = NSURLSession.sharedSession()
         let shotUrl = NSURL(string: urlString)
         var task = session.dataTaskWithURL(shotUrl!){
-            (data, response)-> Void in
+            (data, response, error)-> Void in
             if error != nil {
                 println(error.localizedDescription)
             }
