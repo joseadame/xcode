@@ -14,6 +14,7 @@
 		826D12A61A72D7DF008A8EE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 826D12A41A72D7DF008A8EE4 /* LaunchScreen.xib */; };
 		826D12B21A72D7DF008A8EE4 /* bbbUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826D12B11A72D7DF008A8EE4 /* bbbUpTests.swift */; };
 		826D12BD1A72D7FD008A8EE4 /* DribbleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826D12BC1A72D7FD008A8EE4 /* DribbleApi.swift */; };
+		826D12BF1A7309CC008A8EE4 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826D12BE1A7309CC008A8EE4 /* Shot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		826D12B01A72D7DF008A8EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		826D12B11A72D7DF008A8EE4 /* bbbUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bbbUpTests.swift; sourceTree = "<group>"; };
 		826D12BC1A72D7FD008A8EE4 /* DribbleApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DribbleApi.swift; sourceTree = "<group>"; };
+		826D12BE1A7309CC008A8EE4 /* Shot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				826D12BC1A72D7FD008A8EE4 /* DribbleApi.swift */,
+				826D12BE1A7309CC008A8EE4 /* Shot.swift */,
 			);
 			name = dribbbleApi;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				826D129E1A72D7DF008A8EE4 /* ViewController.swift in Sources */,
 				826D129C1A72D7DF008A8EE4 /* AppDelegate.swift in Sources */,
 				826D12BD1A72D7FD008A8EE4 /* DribbleApi.swift in Sources */,
+				826D12BF1A7309CC008A8EE4 /* Shot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
